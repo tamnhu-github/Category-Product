@@ -61,6 +61,7 @@ public class Main {
 			case 5:
 				System.out.print("Nhap id cua danh muc: ");
 				int i5 = input.nextInt();
+				String c5 = input.nextLine(); //chong troi lenh
 				System.out.println("Nhap ten moi cua danh muc: ");
 				String s5 = input.nextLine();
 				int result = Category.updateCategory(i5, s5);
@@ -78,6 +79,7 @@ public class Main {
 			case 7:
 				System.out.print("Nhap id cua san pham: ");
 				int i7 = input.nextInt();
+				String c7 = input.nextLine();
 				System.out.println("Nhap ten cua san pham: ");
 				String s7 = input.nextLine();
 				System.out.println("Nhap gia cua san pham: ");
@@ -98,6 +100,7 @@ public class Main {
 			case 8: 
 				System.out.print("Nhap id cua san pham: ");
 				int i8 = input.nextInt();
+				String c8 = input.nextLine();
 				System.out.println("Nhap ten moi cua san pham: ");
 				String s8 = input.nextLine();
 				System.out.println("Nhap gia moi cua san pham: ");
